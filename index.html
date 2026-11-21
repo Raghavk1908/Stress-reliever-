@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apke Liye • Nocturne 🤍</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="palette-1">
+  <!-- Ambient Black, Espresso Brown & Midnight Blue Glow -->
+  <div class="ambient-bg">
+    <div class="glow glow-brown"></div>
+    <div class="glow glow-blue"></div>
+    <div class="glow glow-charcoal"></div>
+    <div id="starfield"></div>
+  </div>
+
+  <div class="wrapper">
+    <!-- Top Floating Dock -->
+    <header class="dock">
+      <nav class="step-nav" aria-label="Page switcher">
+        <button class="tab-pill active" data-go="1">01</button>
+        <button class="tab-pill" data-go="2">02</button>
+        <button class="tab-pill" data-go="3">03</button>
+        <button class="tab-pill" data-go="4">04</button>
+        <button class="tab-pill" data-go="5">05</button>
+      </nav>
+
+      <button id="musicBtn" class="sound-chip" type="button" aria-label="Toggle song">
+        <span class="bars active" id="bars">
+          <span></span><span></span><span></span><span></span>
+        </span>
+        <span id="musicStatus">song1</span>
+      </button>
+    </header>
+
+    <!-- ==================== PAGE 01 ==================== -->
+    <section id="page-1" class="view active">
+      <article class="panel hero-panel">
+        <div class="eyebrow-row">
+          <span class="tag">24×7 Safe Space • Zero Pressure 🤍</span>
+          <span class="page-counter">CHAPTER 01 / 05</span>
+        </div>
+        <h1>Take a Deep Breath, Overthinker 😌✨</h1>
+        <p class="prose">
+          Mujhe pata hai apka mind kitni jaldi daudne lagta hai jaise hi cheezein thodi bhi complicated hoti hain—aur sach kahun, jab ap serious aur worried hoti hain toh kitni cute lagti hain 🥺💕, par apko aaj raat apni shoulders par itni tension rakhne ki zaroorat nahi hai. Thoda peeche hoke baitho, do minute ke liye guard neeche karo, aur breathe karo 🌬️🤍—aur apni saari feelings apne employee/boss par nikal do 😉🫶. Is duniya mein koi bhi cheez apka peace ya woh smile chheen ne ke laayak nahi hai jisse main bohut zyada pasand karta hun 😊✨. Sab kuch smoothly settle ho jayega, aur jab apki team 24×7 apke saath hai toh apko kuch bhi akeli handle karne ki zaroorat nahi hai 🤗🛡️💫.
+        </p>
+      </article>
+
+      <div class="split-row">
+        <div class="panel breath-panel">
+          <div class="breath-orbit">
+            <div class="orbit-ring"></div>
+            <div class="orbit-core"></div>
+            <span id="breathText" class="breath-label">Inhale...</span>
+          </div>
+          <p class="sub-caption">Glow ke saath breath sync karein ✨</p>
+        </div>
+
+        <div class="panel quick-note-panel">
+          <span class="mini-label">NIGHT REMINDER</span>
+          <p class="mini-copy">
+            Apke peace se badhkar kuch nahi hai. Aaj raat thoda halka feel karein, baaki sab sambhal liya jayega 🌙🤍.
+          </p>
+          <button id="breatheDoneBtn" class="pill-action" type="button">
+            Ab ache se breathe kar rahi hun ✨😌
+          </button>
+          <p id="breatheReveal" class="feedback-line"></p>
+        </div>
+      </div>
+
+      <div class="panel mood-panel">
+        <h2 class="sub-heading">Jo abhi apke dimaag mein chal raha hai uspar tap karein 💭</h2>
+        <div class="mood-list">
+          <button class="mood-pill active" data-mood="overthinking">Overthinking tomorrow 🤯</button>
+          <button class="mood-pill" data-mood="heavy">Head feels heavy 🌧️</button>
+          <button class="mood-pill" data-mood="doubt">Doubting us 💕</button>
+          <button class="mood-pill" data-mood="comfort">Need comfort 😊✨</button>
+        </div>
+        <div id="moodBox" class="mood-quote">
+          <p id="moodText">
+            Apki yeh aadat hai ki paanch minute mein das alag worst-case scenarios imagine kar leti hain 🤯💭, aur unmein se aadhe toh real bhi nahi hote. Meri taraf dekho—aur apne parents ke baare mein socho jo apke sirf 2 minute ke stress se worried ho jaate hain—figuratively, at least 👀🤍—aur yeh baat saaf sun lo: ap bilkul safe, respected, aur cared for hain 🛡️🌷. Mere paas ap bilkul loved aur understood hain 💖✨, aur main hamesha apko sunne aur apko hasane ke liye yahan hun, Miss Ragvi 🥰😊. Kal jo bhi ho, hum calm heads aur zero drama ke saath handle karenge 🌿🕊️. Imaginary worries ko apni aaj ki raat mat bigaadne do—ap bohut precious hain un cheezon ke liye neend khone ke liye jo abhi hui bhi nahi hain 🌙💎. Ap mere aur apki family ke liye ek rare gem hain ✨👑, toh bilkul tension mat lo jab tak apka Raghuu apke saath hai 🤗🤍.
+          </p>
+        </div>
+      </div>
+
+      <div class="pager">
+        <span></span>
+        <button class="pager-btn next" data-go="2">
+          <span>02 • Ap Kitni Precious Hain</span>
+          <span class="arrow">↗</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ==================== PAGE 02 ==================== -->
+    <section id="page-2" class="view">
+      <article class="panel letter-panel">
+        <div class="eyebrow-row">
+          <span class="tag">No Fixed Specifications • Rare Gem 🧿✨</span>
+          <span class="page-counter">CHAPTER 02 / 05</span>
+        </div>
+        <h1>Ap Mere Liye Kitni Precious Hain 🧿💖</h1>
+
+        <div class="letter-stack">
+          <p class="prose">
+            Sach kahun toh mujhe samajh hi nahi aata ki apne saare thoughts apke baare mein kaise words mein daalun, kyunki ap kitni special person hain iski koi fixed specifications nahi hain 🧿✨. Apke andar ek bachpan wali warmth hai jo itni effortlessly sweet, kind, beautiful, aur caring hai ki apki har ek detail rare aur irreplaceable lagti hai 🌸🤍. Jab bhi main describe karne ki koshish karta hun ki ap kitni precious hain, words kam pad jaate hain—kyunki kisi bhi list mein woh magic nahi aa sakta jo apke aas-paas hone se milta hai, woh sukoon jo apke theek hone ki khabar se aata hai, ya woh peace jo sirf apke corner mein rehne se milti hai 🕊️🌙.
+          </p>
+          <p class="prose">
+            Apko handle karna aur pamper karna sach mein meri duniya ki sabse favorite cheez ban gayi hai 🥰🫶, aur jab bhi life loud ya overwhelming hoti hai, main hamesha yahan apke saath baithne aur apki saari frustrations sunne ke liye taiyaar hun—jo, sach bolein toh, jab apka brain full speed pe chalta hai tab <em>bohut kaam</em> aata hai 😂💭. Unhi moments mein jab ap ek choti si <em>lal mirch</em> 🌶️ ban jaati hain—cute aur spicy—tab bhi ap mujhe utni hi sweet aur pyari lagti hain, aur sach kahun toh apka <em>gussa</em> bhi blessed lagta hai jab woh mujhpar aata hai kyunki kam se kam apko react karne ki parwah toh hai 🥺💕.
+          </p>
+          <p class="prose">
+            Aur gussa thanda karna? <em>Gussa thanda karna toh pata nahi</em>, kyunki mujh jaise <em>nasamjh</em> ke dimaag mein toh har time mazak aur teasing aati rehti hai aur main aur zyada <em>chida</em> deta hun 😅😜—par ap itni sweet hain ki khud hi apna gussa utaar leti hain, toh isse zyada kya proof chahiye ki ap mere liye kitni precious hain? 🧿💖✨
+          </p>
+        </div>
+
+        <button id="nazarBtn" class="pill-action" type="button">🧿 Tap to Ward Off All Nazar & Stress</button>
+        <p id="nazarNote" class="feedback-line"></p>
+      </article>
+
+      <div class="pager">
+        <button class="pager-btn prev" data-go="1">
+          <span class="arrow">↙</span>
+          <span>01 • Breathe</span>
+        </button>
+        <button class="pager-btn next" data-go="3">
+          <span>03 • Meri Strongest Ladki</span>
+          <span class="arrow">↗</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ==================== PAGE 03 ==================== -->
+    <section id="page-3" class="view">
+      <article class="panel letter-panel">
+        <div class="eyebrow-row">
+          <span class="tag">Ap Meri Ladki • Meri Sabse Badi Blessing 👑💫</span>
+          <span class="page-counter">CHAPTER 03 / 05</span>
+        </div>
+        <h1>Strength Meets Next-Level Sukoon 👑🤍</h1>
+
+        <div class="letter-stack">
+          <p class="prose">
+            Log bahar se sirf dekhte hain ki ap kitni calm aur composed dikhti hain, par mujhe pata hai ap andar se kitni strong hain—aur sach mein, jo kuch bhi ap lately face kar rahi hain woh kisi ke liye bhi normal ya aasaan nahi hai, phir bhi ap itni grace ke saath sab sambhal rahi hain 👑🛡️🤍. Ap har waqt ek tough, unbreakable ladki bani rehti hain, aur chahe main apki is strength ko kitna bhi admire karun, main bas yeh kehna chahta hun: <em>apko ab har battle akeli ladne ki zaroorat nahi hai—main yahan apke saath hun, toh isko bhi ab na kar dikha</em> 💪🔥✨.
+          </p>
+          <p class="prose">
+            Apka meri life mein hona ek aisi blessing hai jise main measure bhi nahi kar sakta 🙏💫. Sach mein, <em>apke bin toh pura din hi feeka lagta hai</em>—aisi aadat pad gayi hai ki jab tak apse baat na ho tab tak kuch bhi acha nahi lagta 🥺💭. Ek halki si ladai ya thoda sa off-mood bhi ho jaaye toh pura din fikr mein nikal jaata hai ki ap theek hain ya nahi, muskura rahi hain ya nahi 🌧️💔.
+          </p>
+          <p class="prose">
+            Aur jab main apke saath hota hun? Mujhe kuch bolne ki zaroorat bhi mehsoos nahi hoti—main bas apko dekhta rahun, 24×7 apki awaaz sunta rahun, aur apki presence mein khoya rahun 😌👀💖. Apki presence itni blessed lagti hai ki uss waqt duniya mein kuch aur hota hi nahi—bas ap, apki baatein, aur main har ek baat ko dil se feel karke sun raha hun 🫶✨. Aur apki hansi? Woh toh mere liye straight next-level <em>sukoon</em> hai—apki ek sacchi hansi un cheezon ko bhi theek kar deti hai jinka apko andaza bhi nahi hota 🥰🌸🎶.
+          </p>
+        </div>
+
+        <button id="sukoonBtn" class="pill-action" type="button">🎶 Tap for a Sukoon Reminder</button>
+        <p id="sukoonNote" class="feedback-line"></p>
+      </article>
+
+      <div class="pager">
+        <button class="pager-btn prev" data-go="2">
+          <span class="arrow">↙</span>
+          <span>02 • Ap Kitni Precious Hain</span>
+        </button>
+        <button class="pager-btn next" data-go="4">
+          <span>04 • Zero Fear, Just Us</span>
+          <span class="arrow">↗</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ==================== PAGE 04 ==================== -->
+    <section id="page-4" class="view">
+      <article class="panel letter-panel">
+        <div class="eyebrow-row">
+          <span class="tag">No Judgment • Hamesha Apke Saath 🕊️🤍</span>
+          <span class="page-counter">CHAPTER 04 / 05</span>
+        </div>
+        <h1>Zero Fear, Zero Misunderstanding 🤗💖</h1>
+
+        <div class="letter-stack">
+          <p class="prose">
+            Mujhe pata hai apke dimaag ke peeche hamesha ek dar rehta hai—misunderstanding ka FOMO, kuch share karne se pehle yeh hichkichahat ki <em>"Kya woh meri baat samajh paayega, ya phir point out karega aur judge karega?"</em> 💭🥺 Is dar ko yahin, abhi khatam kar dete hain. Apko mere saath apne thoughts filter karne, over-explain karne, ya ek bhi baat rokne ki zaroorat nahi hai 🛡️🤍. Sach yeh hai ki main <em>hamesha</em> apko samajhne ki poori koshish karunga—chahe ap apni baatein proper words mein na bhi rakh paayein.
+          </p>
+          <p class="prose">
+            Honestly, main abhi har cheez smoothly express karne mein thoda naya hun, toh shayad mere words ya gestures woh bada dramatic impact na create kar paayein—<em>naya-naya hun, toh baat karni aur console karna har baar perfect nahi aata</em> 😅🫶. Mera mechanism simple raha hai: bina dikhaye care karna, isliye shayad apko kayi baar aisa feel hota hoga ki main kya soch raha hun 🌙✨.
+          </p>
+          <p class="prose">
+            Par bharosa rakho, main woh insaan kabhi nahi banunga jo apko judge kare ya apki feelings ke khilaaf jaaye. Ap mujhe kuch bhi bata sakti hain—messy, unfiltered, half-said—aur main hamesha apke saath khada rahunga 🤗💖. Duniya ki nazar mein chahe koi galat ho ya koi sahi, mere liye ek rule pakka hai: <em>mujhe pata hai ap hamesha sahi hoti hain</em> 😌👑💕.
+          </p>
+        </div>
+
+        <button id="promiseBtn" class="pill-action" type="button">🔓 Unlock My Permanent Promise</button>
+        <p id="promiseNote" class="feedback-line"></p>
+      </article>
+
+      <div class="pager">
+        <button class="pager-btn prev" data-go="3">
+          <span class="arrow">↙</span>
+          <span>03 • Meri Strongest Ladki</span>
+        </button>
+        <button class="pager-btn next" data-go="5">
+          <span>05 • Mere Waade Apse</span>
+          <span class="arrow">↗</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ==================== PAGE 05 ==================== -->
+    <section id="page-5" class="view">
+      <article class="panel letter-panel">
+        <div class="eyebrow-row">
+          <span class="tag">Honest Effort • Har Ek Din 🤝🤍</span>
+          <span class="page-counter">CHAPTER 05 / 05</span>
+        </div>
+        <h1>Mere Waade Apse, Hamesha ✨🌸</h1>
+
+        <div class="letter-stack">
+          <p class="prose">
+            Main bade-bade daave toh nahi kar sakta, <em>par main poori koshish karunga</em> ki hamesha apke saath ache se behave karun, apko khush rakhun, aur apki aur apke words ki dil se respect karun 🥰🙏🤍. Ap mere liye itni khaas hain ki main kabhi apki feelings ko light nahi le sakta.
+          </p>
+          <p class="prose">
+            Main kabhi aise kaam nahi karunga jis se apko gussa aaye ya apka dil dukhe 🥺💕—aur agar kabhi koi misunderstanding create ho bhi jaaye toh usse <em>ASAP</em> sort karunga jis se apko uss cheez ka bilkul stress na ho aur apke misunderstanding ke FOMO ko khatam kar paun 🌿🕊️✨. Main poori koshish karunga express karne ki ki <em>“Yes, main apki baat samajh sakta hun”</em> taaki apko kabhi akela ya unheard na lage 🫶💖.
+          </p>
+          <p class="prose">
+            Kuch bhi ho, ek gehri saans lo aur yeh yaad rakho: <em>apko kisi bhi cheez ki worry karne ki zaroorat nahi hai jab tak main yahan hun</em> 🛡️👑💫. Mera dil, meri patience, aur meri koshish apke liye hain—aaj, kal, aur hamesha.
+          </p>
+        </div>
+
+        <button id="finalSealBtn" class="pill-action" type="button">🤍 Seal These Promises With Peace</button>
+        <p id="finalSealNote" class="feedback-line"></p>
+      </article>
+
+      <div class="pager">
+        <button class="pager-btn prev" data-go="4">
+          <span class="arrow">↙</span>
+          <span>04 • Zero Fear, Just Us</span>
+        </button>
+        <button class="pager-btn next" data-go="1">
+          <span>↺ Back to 01</span>
+          <span class="arrow">↗</span>
+        </button>
+      </div>
+    </section>
+  </div>
+
+  <!-- Audio Tracks (song1.mp3 to song5.mp3 in same folder) -->
+  <audio id="audio-1" autoplay loop preload="auto"><source src="song1.mp3" type="audio/mpeg" /></audio>
+  <audio id="audio-2" loop preload="auto"><source src="song2.mp3" type="audio/mpeg" /></audio>
+  <audio id="audio-3" loop preload="auto"><source src="song3.mp3" type="audio/mpeg" /></audio>
+  <audio id="audio-4" loop preload="auto"><source src="song4.mp3" type="audio/mpeg" /></audio>
+  <audio id="audio-5" loop preload="auto"><source src="song5.mp3" type="audio/mpeg" /></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
